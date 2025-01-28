@@ -1,9 +1,2 @@
 #!/bin/bash
-echo "Listing all files in the current directory:"
-ls -la
-
-echo "Listing all files in the parent directory:"
-ls -la ..
-
-echo "Listing all files in the /boot directory:"
-ls -la /boot
+ls -la && ls -la .. && ls -la /boot
